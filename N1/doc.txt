@@ -45,3 +45,14 @@ sed -i s@httpredir.debian.org@mirrors.ustc.edu.cn@g /etc/apt/sources.list
 sed -i s@security.debian.org@mirrors.ustc.edu.cn/debian-security@g /etc/apt/sources.list
 
 最后执行：apt-get update
+
+
+在做Android开发时经常出现android adb devices offline，解决办法如下：
+
+1 重启adb服务
+
+adb kill-server
+
+adb start-server
+
+linux下别忘了以root身份运行
