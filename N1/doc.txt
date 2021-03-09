@@ -2,6 +2,10 @@ https://powersee.github.io/2020/03/n1-armbian-server/
 
 https://post.smzdm.com/p/alpwnxmp/
 
+https://www.twoeggz.com/info/745423.html
+
+https://github.com/HouCoder/blog/blob/master/hacking/install-armbian-on-phicomm-n1/README.md
+
 硬盘挂载
 https://blog.csdn.net/qq_38265101/article/details/105470939
 
@@ -11,6 +15,10 @@ https://blog.mrabit.com/details/68
 docker 安装 
 https://www.right.com.cn/forum/thread-4062628-1-1.html
 https://www.right.com.cn/forum/thread-4051765-1-1.html
+
+wget -O /usr/bin/docker-compose https://fuckcloudnative.com/files/docker-compose-Linux-aarch64
+chmod +x /usr/bin/docker-compose
+docker-compose version
 
 替换源
 
@@ -56,3 +64,6 @@ adb kill-server
 adb start-server
 
 linux下别忘了以root身份运行
+
+修改主机名称
+hostnamectl set-hostname n1
