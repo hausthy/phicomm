@@ -1,0 +1,47 @@
+https://powersee.github.io/2020/03/n1-armbian-server/
+
+https://post.smzdm.com/p/alpwnxmp/
+
+硬盘挂载
+https://blog.csdn.net/qq_38265101/article/details/105470939
+
+中文乱码
+https://blog.mrabit.com/details/68
+
+docker 安装 
+https://www.right.com.cn/forum/thread-4062628-1-1.html
+https://www.right.com.cn/forum/thread-4051765-1-1.html
+
+替换源
+
+默认源
+deb http://httpredir.debian.org/debian stretch main contrib non-free
+#deb-src http://httpredir.debian.org/debian stretch main contrib non-free
+
+deb http://httpredir.debian.org/debian stretch-updates main contrib non-free
+#deb-src http://httpredir.debian.org/debian stretch-updates main contrib non-free
+
+deb http://httpredir.debian.org/debian stretch-backports main contrib non-free
+#deb-src http://httpredir.debian.org/debian stretch-backports main contrib non-free
+
+deb http://security.debian.org/ stretch/updates main contrib non-free
+#deb-src http://security.debian.org/ stretch/updates main contrib non-free
+
+1.直接覆盖
+deb http://mirrors.ustc.edu.cn/debian stretch main contrib non-free
+#deb-src http://mirrors.ustc.edu.cn/debian stretch main contrib non-free
+
+deb http://mirrors.ustc.edu.cn/debian stretch-updates main contrib non-free
+#deb-src http://mirrors.ustc.edu.cn/debian stretch-updates main contrib non-free
+
+deb http://mirrors.ustc.edu.cn/debian stretch-backports main contrib non-free
+#deb-src http://mirrors.ustc.edu.cn/debian stretch-backports main contrib non-free
+
+deb http://mirrors.ustc.edu.cn/debian-security/ stretch/updates main contrib non-free
+#deb-src http://security.debian.org/ stretch/updates main contrib non-free
+
+2.命令执行
+sed -i s@httpredir.debian.org@mirrors.ustc.edu.cn@g /etc/apt/sources.list
+sed -i s@security.debian.org@mirrors.ustc.edu.cn/debian-security@g /etc/apt/sources.list
+
+最后执行：apt-get update
