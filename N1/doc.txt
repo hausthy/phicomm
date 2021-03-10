@@ -6,6 +6,8 @@ https://www.twoeggz.com/info/745423.html
 
 https://github.com/HouCoder/blog/blob/master/hacking/install-armbian-on-phicomm-n1/README.md
 
+https://www.tyrad.cc/wiki/linux/%E6%96%90%E8%AE%AFn1%E5%88%B7%E6%9C%BA/
+
 修复只读
 https://mrchou.com/internet/n1-armbian-emby.html
 
