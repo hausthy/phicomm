@@ -13,8 +13,11 @@ https://www.linuxdashen.com/debianubuntu%E6%B8%85%E7%90%86%E7%A1%AC%E7%9B%98%E7%
 
 https://blog.csdn.net/u012660464/article/details/78923011
 
+
 硬盘挂载
 https://blog.csdn.net/qq_38265101/article/details/105470939
+
+https://jkdigger.me/2019/12/06/n1-Armbian%E5%AE%89%E8%A3%85-docker%E7%89%88-samba%E5%85%B1%E4%BA%AB%E7%A7%BB%E5%8A%A8%E7%A1%AC%E7%9B%98/
 
 中文乱码
 https://blog.mrabit.com/details/68
