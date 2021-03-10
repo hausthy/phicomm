@@ -79,3 +79,10 @@ linux下别忘了以root身份运行
 
 修改主机名称
 hostnamectl set-hostname n1
+
+
+一些教程
+https://zorz.cc/post/category/outs/
+
+n1 Armbian安装Docker版Samba共享移动硬盘
+https://jkdigger.me/2019/12/06/n1-Armbian%E5%AE%89%E8%A3%85-docker%E7%89%88-samba%E5%85%B1%E4%BA%AB%E7%A7%BB%E5%8A%A8%E7%A1%AC%E7%9B%98/
