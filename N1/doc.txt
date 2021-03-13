@@ -28,6 +28,10 @@ docker 安装
 https://www.right.com.cn/forum/thread-4062628-1-1.html
 https://www.right.com.cn/forum/thread-4051765-1-1.html
 
+docker-compose 安装
+
+https://fuckcloudnative.com/archives/4.html
+
 wget -O /usr/bin/docker-compose https://fuckcloudnative.com/files/docker-compose-Linux-aarch64
 chmod +x /usr/bin/docker-compose
 docker-compose version
