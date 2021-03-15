@@ -99,3 +99,6 @@ qbittorrent安装
 https://hub.docker.com/r/linuxserver/qbittorrent
 
 https://jkdigger.me/2019/12/20/n1-Armbian%E5%AE%89%E8%A3%85Docker%E7%89%88qbittorrent/
+
+openwrt 设置
+https://cyhour.com/1308/#toc-9
