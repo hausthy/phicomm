@@ -1,7 +1,7 @@
 查看系统信息
 /etc/update-motd.d/30-armbian-sysinfo
 
-##
+##其他
 https://powersee.github.io/2020/03/n1-armbian-server/
 
 https://post.smzdm.com/p/alpwnxmp/
