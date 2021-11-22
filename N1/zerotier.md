@@ -39,7 +39,7 @@
         "stableEndpoints": ["47.xxx.xxx.xxx/9993"]
 
         ## 如果要修改端口，需要增加primaryPort配置，同时stableEndpoints中的端口号也要改成对应的。
-        
+
         "primaryPort": "10086"
 
 生成 .moon 文件
@@ -94,3 +94,14 @@
   设置开机自启命令
 
      sudo systemctl enable zerotier-one
+
+  zerotier-cli命令帮助
+
+     zerotier-cli info #查看当前zerotier信息
+     zerotier-cli listpeers #列出所有的peers
+     zerotier-cli listnetworks #列出加入的所有的网络
+     zerotier-cli join <network> #加入某个网络
+     zerotier-cli leave <network> #离开某个网络
+     zerotier-cli listmoons #列出加入的Moon节点
+     zerotier-cli orbit <world ID> <seed> #加入某个Moon节点
+     zerotier-cli deorbit <world ID> #离开某个Moon节点
