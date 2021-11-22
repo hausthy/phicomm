@@ -20,16 +20,21 @@
 ## 第三步 配置 Moon
 
 进入 zerotier-one 程序所在的目录，默认为 /var/lib/zerotier-one
+
      cd /var/lib/zerotier-one
 
 生成 moon.json 配置文件
+
      sudo zerotier-idtool initmoon identity.public >> moon.json
 
 编辑 moon.json 配置文件
+
      sudo nano moon.json
+
 将配置文件中的 "stableEndpoints": [] 修改成 "stableEndpoints": ["ServerIP/9993"]，将 ServerIP 替换成云服务器的公网IP
 
 生成 .moon 文件
+
      sudo zerotier-idtool genmoon moon.json
 
 将生成的 000000xxxxxxxxxx.moon 移动到 moons.d 目录
@@ -39,6 +44,7 @@
 .moon 配置文件的名一般为10个前导零+本机的节点ID
 
 重启 zerotier-one 服务
+
      sudo systemctl restart zerotier-one
 
 到这里，服务器的moon就配置完成了。
@@ -46,8 +52,13 @@
 
 常用命令
   启动命令
+
      sudo systemctl start zerotier-one
+
   重启命令
+
      sudo systemctl restart zerotier-one
+
   设置开机自启命令
+
      sudo systemctl enable zerotier-one
