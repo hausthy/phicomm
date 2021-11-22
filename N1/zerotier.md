@@ -47,6 +47,7 @@
      sudo zerotier-idtool genmoon moon.json
 
 将生成的 000000xxxxxxxxxx.moon 移动到 moons.d 目录
+
      sudo mkdir moons.d
      sudo mv 000000xxxxxxxxxx.moon moons.d
 
