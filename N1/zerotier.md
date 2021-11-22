@@ -35,8 +35,11 @@
 （主要是添加公网IP，公网IP是服务器的IP，9993是zerotier的默认端口，你服务器防火墙上需要开放UDP:9993,否则是连接不上Moon的）
 
 在生成的moon.json中增加stableEndpoints配置节点，9993为默认端口号，可以修改。
+
         "stableEndpoints": ["47.xxx.xxx.xxx/9993"]
+
         ## 如果要修改端口，需要增加primaryPort配置，同时stableEndpoints中的端口号也要改成对应的。
+        
         "primaryPort": "10086"
 
 生成 .moon 文件
