@@ -15,14 +15,14 @@
 3. 电脑，能开机的
 
 4. 软件：PuTTY （SSH）或者Xshell，Win32DiskImager（把ArmBian写入U盘），N1-ADBU盘启动，WinScp（往盒子里上传还原备份），N1-T1降刷机助手v1.1版本、Amlogic USB Burning Tool_v2.1.6.8
-   
+
 5. ArmBian5.77
 
 6. xiangsm大佬修改的dtd文件（meson-gxl-s905d-phicomm-n1-xiangsm.dtb）
 
 ## 第二步：给N1盒子降级（这个操作N1盒子这辈子都只用一次）
 
-###  降级工具
+### 降级工具
 
  斐讯T1、N1官方系统降级工具.zip
 
@@ -49,7 +49,7 @@
 1. 将一个8G以上的U盘插入电脑，然后选择下载的Armbian_5.77镜像写入，注意别写错U盘。
 
 2. 打开软件写入镜像
- 
+
      ![icon.png](./images/5e81801ea26e54233.png_e680.png)
 
      选择好U盘
@@ -85,7 +85,7 @@
      把下载的的dtb文件拷进dtb文件夹去
 
 3. 打开uEnv.ini,修改配置
-     
+
      ![icon.png](./images/5e818148eaea59096.png_e680.png)
 
      打开uEnv.ini
@@ -110,14 +110,13 @@
 
      然后ok
 
-2. 将U盘插入靠近HDMI的U口里，上电重启，会自动进入U盘系统。 
+2. 将U盘插入靠近HDMI的U口里，上电重启，会自动进入U盘系统。
 
      然后开始疯狂跑代码
 
      下面的图片是手机拍的，见谅。
 
      ![icon.png](./images/5e81839df0c2c404.jpg_e680.jpg)
-
 
      默认用户名：root 密码：1234
 
@@ -165,8 +164,3 @@
      关机拔掉U盘，所有刷机工作就结束了。
 
      这里多说一句，如果你想重刷Armbian系统，那么还是U盘启动Armbian，重新执行nand-sata-install即可完整覆盖掉emmc中的数据，不必重刷安卓再刷Armbian。
-
-
-     
-
-     
